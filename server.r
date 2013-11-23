@@ -1,6 +1,5 @@
 library(shiny)
 require(rCharts)
-library(tagStats)
                       
 shinyServer(function(input, output) {
   output$map <- renderMap({
